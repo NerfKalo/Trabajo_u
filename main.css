@@ -31,11 +31,12 @@ button {
     cursor: pointer;
     font-size: 20px; 
 }
+
 h1, p, img, button {
     text-align: left;
     margin: 0 auto; 
-    
-  }
+
+}
 
 
 
