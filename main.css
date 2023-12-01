@@ -4,10 +4,9 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    flex-direction: column; 
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('fondito.jpg');
+    flex-direction: column;
+    background: url('fondito.jpg') no-repeat center center fixed;
     background-size: cover; 
-    background-position: center; 
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif; 
     text-align: center;
@@ -15,12 +14,30 @@ body {
 
 h1, h2, h3, p {
     background-color: rgb(0, 0, 0);
-    color: #cacaca; 
+    color: #ffffff; 
     padding: 10px;
     text-align: justify; 
     margin: 5px; 
     border-radius: 10px; 
 }
+
+button {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 18px; 
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px; 
+}
+h1, p, img, button {
+    text-align: left;
+    margin: 0 auto; 
+  }
+
+
+
 
 
 
